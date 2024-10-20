@@ -1,0 +1,30 @@
+{
+    "name": "vendor/speedtemp",
+    "description": "speedtemp package library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gilang Satrio",
+            "email": "gilangsatrio218@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "VendorName\\PackageName\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vendor\\SpeedTemp\\PackageServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
