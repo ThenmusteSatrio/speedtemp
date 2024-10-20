@@ -21,6 +21,7 @@ class PackageServiceProvider extends ServiceProvider
             __DIR__ . '/resources/views' => resource_path('views/vendor/speedtemp'),
             __DIR__.'/path/to/migrations' => database_path('migrations'),
         ]);
+        $this->loadRoutesFrom(__DIR__.'/routes/web.php');
     }
 
     public function register()
