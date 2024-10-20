@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\SpeedTemp;
+namespace VendorTaro\SpeedTemp;
 
 use Illuminate\Support\ServiceProvider;
 
