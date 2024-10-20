@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\PackageName\Console;
+namespace VendorTaro\SpeedTemp\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
