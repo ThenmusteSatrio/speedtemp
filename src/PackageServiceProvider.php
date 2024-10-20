@@ -3,7 +3,7 @@
 namespace VendorTaro\SpeedTemp;
 
 use Illuminate\Support\ServiceProvider;
-use VendorName\PackageName\Console\SetupPackageCommand;
+use VendorTaro\SpeedTemp\Console\SetupPackageCommand;
 
 class PackageServiceProvider extends ServiceProvider
 {
